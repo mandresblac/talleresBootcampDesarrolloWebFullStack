@@ -13,7 +13,7 @@ const frutasFavoritas: string[] = ["fresa", "manzana", "melon", "piña"]; // arr
 
 // objeto
 type vehiculo = {marca: string, modelo: string, matricula: number, usado: boolean};
-const vehiculo = {marca: "renault", modelo: "sandero", matricula: 23079, usado: true};
+const vehiculo: vehiculo = {marca: "renault", modelo: "sandero", matricula: 23079, usado: true};
 
 /* Uso de Tipos de Literales:
 Utilicen tipos de literales para limitar los valores de una variable. */
